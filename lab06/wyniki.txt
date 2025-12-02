@@ -1,0 +1,12 @@
+  6  24 112 tekst3.txt
+Ala ma kota
+Ala ma psa
+total 32
+-rw-r--r-- 1 sydorchuk sydorchuk  45 Dec  2 22:24 dolacz.txt
+-rw-r--r-- 1 sydorchuk sydorchuk  23 Dec  2 22:20 grep.txt
+-rw-r--r-- 1 sydorchuk sydorchuk 299 Dec  2 22:21 ls.txt
+-rw-r--r-- 1 sydorchuk sydorchuk  67 Dec  2 22:18 tekst1.txt
+-rw-r--r-- 1 sydorchuk sydorchuk  67 Dec  2 22:19 tekst2.txt
+-rw-r--r-- 1 sydorchuk sydorchuk 112 Dec  2 22:24 tekst3.txt
+-rw-r--r-- 1 sydorchuk sydorchuk  20 Dec  2 22:20 wc.txt
+-rw-r--r-- 1 sydorchuk sydorchuk  46 Dec  2 22:25 wyniki.txt
