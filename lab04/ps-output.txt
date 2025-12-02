@@ -1,0 +1,33 @@
+    PID TTY          TIME CMD
+    475 pts/0    00:00:00 bash
+    535 pts/0    00:00:00 ps
+    PID TTY          TIME CMD
+    338 ?        00:00:00 systemd
+    339 ?        00:00:00 (sd-pam)
+    364 pts/1    00:00:00 bash
+    475 pts/0    00:00:00 bash
+    537 pts/0    00:00:00 ps
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  21680 12388 ?        Ss   16:53   0:00 /sbin/init
+root           2  0.0  0.0   3072  1792 ?        Sl   16:53   0:00 /init
+root           6  0.0  0.0   3088  1940 ?        Sl   16:53   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          52  0.0  0.2  50436 15616 ?        S<s  16:53   0:00 /usr/lib/systemd/systemd-journald
+root          98  0.0  0.0  25268  6528 ?        Ss   16:53   0:00 /usr/lib/systemd/systemd-udevd
+systemd+     123  0.0  0.1  21452 12800 ?        Ss   16:53   0:00 /usr/lib/systemd/systemd-resolved
+systemd+     160  0.0  0.0  91020  7680 ?        Ssl  16:53   0:00 /usr/lib/systemd/systemd-timesyncd
+root         173  0.0  0.0   4236  2560 ?        Ss   16:53   0:00 /usr/sbin/cron -f -P
+message+     174  0.0  0.0   9632  4736 ?        Ss   16:53   0:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         181  0.0  0.1  17956  8448 ?        Ss   16:53   0:00 /usr/lib/systemd/systemd-logind
+root         183  0.0  0.1 1756096 12160 ?       Ssl  16:53   0:00 /usr/libexec/wsl-pro-service -vv
+syslog       193  0.0  0.0 222508  5248 ?        Ssl  16:53   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         202  0.0  0.0   3160  2048 hvc0     Ss+  16:53   0:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+root         205  0.0  0.0   3116  1920 tty1     Ss+  16:53   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         206  0.0  0.2 107024 22272 ?        Ssl  16:53   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         295  0.0  0.0   6660  4096 pts/1    Ss   16:53   0:00 /bin/login -f
+sydorch+     338  0.0  0.1  20300 11392 ?        Ss   16:53   0:00 /usr/lib/systemd/systemd --user
+sydorch+     339  0.0  0.0  21144  3516 ?        S    16:53   0:00 (sd-pam)
+sydorch+     364  0.0  0.0   6056  4992 pts/1    S+   16:53   0:00 -bash
+root         473  0.0  0.0   3072  1028 ?        Ss   17:08   0:00 /init
+root         474  0.0  0.0   3088  1028 ?        S    17:08   0:00 /init
+sydorch+     475  0.0  0.0   6072  5248 pts/0    Ss   17:08   0:00 -bash
+sydorch+     538  0.0  0.0   8280  4224 pts/0    R+   17:14   0:00 ps aux

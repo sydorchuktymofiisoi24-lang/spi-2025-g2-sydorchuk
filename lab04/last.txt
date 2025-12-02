@@ -1,0 +1,12 @@
+reboot   system boot  6.6.87.2-microso Tue Dec  2 16:51   still running
+reboot   system boot  6.6.87.2-microso Tue Dec  2 16:49   still running
+reboot   system boot  6.6.87.2-microso Tue Dec  2 15:54   still running
+reboot   system boot  6.6.87.2-microso Wed Nov 19 11:03   still running
+reboot   system boot  6.6.87.2-microso Wed Nov 12 00:25   still running
+reboot   system boot  6.6.87.2-microso Tue Nov 11 19:25   still running
+reboot   system boot  6.6.87.2-microso Wed Nov  5 22:04   still running
+reboot   system boot  6.6.87.2-microso Wed Nov  5 14:21   still running
+reboot   system boot  6.6.87.2-microso Wed Nov  5 14:20   still running
+reboot   system boot  6.6.87.2-microso Wed Nov  5 14:19   still running
+
+wtmp begins Wed Nov  5 14:19:54 2025
