@@ -1,0 +1,27 @@
+file /etc/shadow
+id
+id --help
+id -u
+id -g
+id -G
+id -u -n
+id -g -n
+id -G -n
+id -u -r
+
+touch foo.txt
+ls -l foo.txt
+chmod u+x foo.txt
+chmod g+w foo.txt
+chmod o+r foo.txt
+chmod a-r foo.txt
+chmod 777 foo.txt
+chmod 640 foo.txt
+
+umask
+umask 022
+touch bar.txt
+ls -l bar.txt
+
+nano chmod.txt
+
