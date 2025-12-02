@@ -1,0 +1,6 @@
+lista.txt
+lista2.txt
+litery
+obrazy
+oceny
+zwierzeta.txt

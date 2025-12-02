@@ -1,0 +1,5 @@
+lama	Perl. Wprowadzenie	2006	Schwartz, Randal
+krab	Nauka algorytmów	2022	Heineman, George
+suhak	Wydajność Javy	2020	Oaks, Scott
+krogulec	Raspberry Pi. Receptury	2020	Monk, Simon
+dzik	React od podstaw	2021	Porcello, Eve
