@@ -1,0 +1,1 @@
+mv ~/Desktop/polish.txt ~/spi-2025-g2-sydorchuk/lab09/
