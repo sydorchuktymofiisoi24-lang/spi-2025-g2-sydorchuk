@@ -1,0 +1,184 @@
+1.
+find / -name file.txt
+Opis:
+Wyszukuje plik o nazwie file.txt w całym systemie.
+
+2.
+find . -type f
+Opis:
+Wyszukuje wszystkie zwykłe pliki w bieżącym katalogu i podkatalogach.
+1.
+find / -name file.txt
+Opis:
+Wyszukuje plik o nazwie file.txt w całym systemie plików.
+
+2.
+find . -name "*.txt"
+Opis:
+Wyszukuje wszystkie pliki z rozszerzeniem .txt.
+
+3.
+find /home -type f
+Opis:
+Wyszukuje wszystkie zwykłe pliki w katalogu /home.
+
+4.
+find . -type d
+Opis:
+Wyszukuje wszystkie katalogi w bieżącym katalogu.
+
+5.
+find . -size +50M
+Opis:
+Wyszukuje pliki większe niż 50 MB.
+
+6.
+find . -size -1k
+Opis:
+Wyszukuje pliki mniejsze niż 1 KB.
+
+7.
+find . -empty
+Opis:
+Wyszukuje puste pliki i katalogi.
+
+8.
+find . -mtime -1
+Opis:
+Wyszukuje pliki zmodyfikowane w ciągu ostatnich 24 godzin.
+
+9.
+find . -mtime +7
+Opis:
+Wyszukuje pliki zmodyfikowane ponad 7 dni temu.
+
+10.
+find . -atime -1
+Opis:
+Wyszukuje pliki, do których uzyskano dostęp w ciągu ostatniego dnia.
+
+11.
+find . -user root
+Opis:
+Wyszukuje pliki należące do użytkownika root.
+
+12.
+find . -group root
+Opis:
+Wyszukuje pliki należące do grupy root.
+
+13.
+find . -perm 644
+Opis:
+Wyszukuje pliki z uprawnieniami 644.
+
+14.
+find . -perm /u=x
+Opis:
+Wyszukuje pliki wykonywalne przez właściciela.
+
+15.
+find . -type f -name "*.log"
+Opis:
+Wyszukuje pliki logów.
+
+16.
+find . -type f -exec ls -l {} \;
+Opis:
+Wyświetla szczegóły znalezionych plików.
+
+17.
+find . -type f -exec rm {} \;
+Opis:
+Usuwa wszystkie znalezione pliki (niebezpieczna komenda).
+
+18.
+find . -type f -name "*.tmp" -delete
+Opis:
+Usuwa pliki tymczasowe z rozszerzeniem .tmp.
+
+19.
+find . -maxdepth 1 -type f
+Opis:
+Wyszukuje pliki tylko w bieżącym katalogu.
+
+20.
+find . -mindepth 2 -type f
+Opis:
+Wyszukuje pliki od drugiego poziomu katalogów.
+
+21.
+find . -name "test*"
+Opis:
+Wyszukuje pliki zaczynające się od test.
+
+22.
+find . -name "*conf*"
+Opis:
+Wyszukuje pliki zawierające słowo conf w nazwie.
+
+23.
+find . -type f ! -name "*.txt"
+Opis:
+Wyszukuje wszystkie pliki oprócz .txt.
+
+24.
+find . -type f -newer file.txt
+Opis:
+Wyszukuje pliki nowsze niż file.txt.
+
+25.
+find . -type f -links +1
+Opis:
+Wyszukuje pliki z więcej niż jednym linkiem.
+
+26.
+find . -type f -readable
+Opis:
+Wyszukuje pliki możliwe do odczytu.
+
+27.
+find . -type f -writable
+Opis:
+Wyszukuje pliki możliwe do zapisu.
+
+28.
+find . -type f -executable
+Opis:
+Wyszukuje pliki wykonywalne.
+
+29.
+find . -type f -path "*cache*"
+Opis:
+Wyszukuje pliki, których ścieżka zawiera słowo cache.
+
+30.
+find . -type f -name "*.sh"
+Opis:
+Wyszukuje skrypty shell.
+
+31.
+find . -type f -exec wc -l {} \;
+Opis:
+Zlicza liczbę linii w znalezionych plikach.
+
+32.
+find . -type f -size +10M
+Opis:
+Wyszukuje pliki większe niż 10 MB.
+
+33.
+find . -type f -not -user root
+Opis:
+Wyszukuje pliki, które nie należą do użytkownika root.
+
+34.
+find . -type f -exec cp {} /tmp \;
+Opis:
+Kopiuje znalezione pliki do katalogu /tmp.
+
+35.
+find . -type f -name "*.bak"
+Opis:
+Wyszukuje pliki kopii zapasowych z rozszerzeniem .bak.
+
